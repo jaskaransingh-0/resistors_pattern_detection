@@ -1,0 +1,1 @@
+# resistors_pattern_detection
