@@ -1,0 +1,8 @@
+{
+    "database": {
+        "server": "(localdb)\\MSSQLLocalDB"
+    },
+    "ftp": {
+        "folder": "D:/PrinterImages/temp"
+    }
+}
