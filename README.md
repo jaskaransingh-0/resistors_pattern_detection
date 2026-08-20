@@ -7,7 +7,7 @@
 | Column      | Type                | Description                                                        |
 |-------------|---------------------|----------------------------------------------------------------------|
 | Id          | INT (identity, PK)  | Auto-incrementing primary key                                      |
-| UUID        | (assumed VARCHAR)   | Unique ID generated per scan trigger                                |
+| UUID        | ( VARCHAR)          | Unique ID generated per scan trigger                                |
 | CreatedDate | DATETIME            | Timestamp of the scan, set via `GETDATE()`                          |
 | Code1       | VARCHAR             | Company QR (always the `_MIN/YY-YY/` pattern code)                  |
 | Code2-Code12| VARCHAR             | Remaining raw scanned codes from the camera, in scan order          |
